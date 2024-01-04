@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2{
+    font-family: "Raleway",sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+p{  
+    line-height: 1.8;
+    color:hsl(243, 87%, 12%);
+    font-size: 14px;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    background-color:#fff;
+}
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.nav, a{
+    color:hsl(238, 22%, 44%);
+    padding: 0px 20px;
+}
+.nav2{
+    padding-top: 10px;
+    margin-left: 900px;
+}
+
+#upper{
+    margin-top: 60px;
+    margin-left: 80px;
+    display: flex;
+}
+.upper-box{
+    margin-top: 70px;
+}
+.upper-box p{
+    color: hsl(243, 87%, 12%);
+}
+#upper h1{
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+#upper input{
+    padding: 10px 100px 10px 5px;
+    border-radius: 4px #000;
+    color:hsl(0, 0%, 75%);
+}
+#upper button{
+    padding: 11px 50px;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 4px ;
+    margin-left: 10px;
+    color: #ffff;
+    
+}
+/* middle */
+#middle{
+    padding: 50px 0px 90px 80px;
+    display: flex;
+    background-color: hsl(240, 80%, 98%);
+}
+#middle h2{
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+#middle p{
+    color: hsl(243, 87%, 12%);
+    padding-right: 80px;
+}
+#middle a{
+    color: hsl(170, 45%, 43%);
+    padding-left: 0px;
+}
+hr{
+    width: 162px;
+    margin-left: 0px;
+    margin-top: 4px;
+    color: hsl(170, 45%, 43%);
+}
+.m-down{
+    padding-left: 40px;
+    margin-top: 50px;
+    background-color: #ffff;
+    border-radius: 5px;
+    width: 50%;
+    height: 210px;
+}
+.m-down p{
+    font-size: 13px;
+    margin-top: 0px;
+}
+.m-down2 ul{
+    position: relative;
+    bottom: 45px;
+    font-size: 10px;
+}
+
+.cta{
+    padding:90px 200px 40px 90px;
+    background-color:hsl(238, 22%, 44%);
+    display: flex;
+}
+.cta h2{
+    margin-top: 0px;
+    color: #fff;
+}
+.cta p{
+    color: #fff;
+    padding-right: 300px;
+}
+.cta input{
+    padding: 10px 300px 10px 5px;
+    border-radius: 4px #000;
+    color:hsl(0, 0%, 75%);
+}
+.cta button{
+    padding: 11px 20px;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 4px ;
+    margin-top: 15px;
+    color: #ffff;
+}
+footer{
+    padding: 80px 0px 70px 80px;
+    background-color: hsl(243, 87%, 12%);
+    font-size: 14px;
+}
+footer ul{
+    color: #ffff;
+    margin-right: 200px;
+}
+footer ul li {
+    padding-bottom: 15px;
+}
+.f-2{
+    display: flex;
+}
+
+
+
+@media (max-width: 500px) {
+    .nav1 img {
+        max-width: 100%; 
+        max-height: 100%;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+  
+    .nav2 {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 45px;   
+        padding-top: 0px;
+        padding-bottom: 7px;
+    }
+    .nav2 a{
+        padding: 0px 10px;
+    }
+
+    #upper {
+        flex-direction: column;
+        margin-left: 0px ;
+    }
+    .upper-box {
+        order: 2;
+    }
+    #upper h1{
+        text-align: center;
+        font-size: 28px;
+        margin: 0px 30px;
+    }
+    .upper-box p{
+        text-align: center;
+        margin: 30px 50px;
+        font-size: 16px;
+    }
+    #upper input {
+        display: block;
+        padding: 15px 200px 15px 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #upper button{
+        display: block;
+        padding: 17px 150px 17px 150px;
+        margin: 15px auto 0px auto ;
+    }
+    .illimg-1 img {
+        max-width: 80%;
+        height: auto;
+    }
+    .illimg-1 {
+        order: 1;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .curve img {
+        height: 80px;
+    }
+    #middle {
+        flex-direction: column;
+        padding: 0px 0px 90px 0px;
+    }
+    .middle-box {
+        order: 2;
+    }
+    #middle .middle-box h2{
+        font-size: 23px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        text-align: center;
+    }
+    #middle .middle-box .para{
+        padding: 0px 20px;
+        font-size: 16px;
+    }
+    #middle .middle-box .para2{
+        font-size: 15px;
+    }
+    #middle a{
+        display: flex;
+        justify-content: center;
+        padding-right: 0px;
+        
+    }
+    #middle hr{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .m-down {
+        display: block;
+        margin: 50px auto 0px ;
+        width: 70%;
+        height: auto;
+    }
+    .illimg-2 {
+        order: 1;
+        margin: 0;
+        text-align: center;
+    }
+    .illimg-2 img {
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .cta {
+        flex-direction: column;
+        padding: 60px 30px 40px 30px;
+    }
+    .cta h2{
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+    }
+    .cta p {
+        width: 80%;
+        display: block;
+        margin: 0px auto;
+        font-size: 16px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+    .cta input {
+        width: 70%;
+        display: block;
+        padding: 15px 10px 15px 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+    .cta button {
+        width: 74%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        padding: 15px 10px 15px 5px;
+
+    }
+    footer{
+        padding-left: 40px;
+    }
+    .f-2 {
+        flex-direction: column;
+        
+    }
+    .f-box1{
+        margin-top: 15px;
+    }
+    .f-box1 ul{
+        width: 250px;
+    }
+    .f-box2, .f-box3 {
+        margin-top: 10px;
+    }
+    .f-box2 ul, .f-box3 ul{
+        padding-left: 0px;
+        width: 250px;
+    }
+    .f-icons {
+        display: block;
+        margin: 0px auto 0px 27%;
+    }
+    .f-icons a{
+        padding: 0px 10px ;
+    }
+  }
